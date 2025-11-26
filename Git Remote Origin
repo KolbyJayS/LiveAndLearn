@@ -1,20 +1,20 @@
-#**Setting up git remote origin**
+# **Setting up git remote origin**
 
-##**First, create your project folder on your computer and initialize a git repo**
+## **First, create your project folder on your computer and initialize a git repo**
 1. mkdir "Project Folder Name"
 2. cd "Project Folder Name"
 3. git init
-###**OR clone an already existing github repo**
+### **OR clone an already existing github repo**
 1. mkdir "Project Folder Name"
 2. cd "Project Folder Name"
 3. git clone <repo-url>
 
-##**Next,set remote origin within git repo if one doesn't exist**
+## **Next,set remote origin within git repo if one doesn't exist**
 1. git remote add origin <repo-url>
-###**IF one exists and needs to be changed**
+### **IF one exists and needs to be changed**
 1. git remote set-url origin <repo-url>
 
-##**Finally, to check whether the origin was set correctly use**
+## **Finally, to check whether the origin was set correctly use**
 1. git remote -v
-###**This will return all remotes listed in the repo**
+### **This will return all remotes listed in the repo**
 
